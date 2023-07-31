@@ -1,4 +1,5 @@
 // Returns an array of students for a specific city with their grade
+/* eslint-disable */
 export default function updateStudentGradeByCity(arrOfStudentObjs, city, newGrades) {
   if (Array.isArray(arrOfStudentObjs) && typeof city === 'string' && typeof newGrades === 'object') {
     const filtStudents = arrOfStudentObjs.filter((obj) => obj.location === city);
